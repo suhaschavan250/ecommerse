@@ -135,3 +135,7 @@ productButton.addEventListener("click", () => {
 close.addEventListener("click", () => {
   payment.style.display = "none";
 });
+
+var dataLayer=window.dataLayer;
+console.log(dataLayer)
+dataLayer.push({"name":"suhas"})
