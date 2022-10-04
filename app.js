@@ -139,3 +139,15 @@ close.addEventListener("click", () => {
 var dataLayer=window.dataLayer;
 console.log(dataLayer)
 dataLayer.push({"name":"suhas"})
+
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if ((x == "")) {
+   document.getElementById("suhas").innerHTML="fill the form first";
+    return false;
+  }else{
+    document.getElementById("suhas").innerHTML="thank you for your interest"
+    return false;
+  }
+}

@@ -257,11 +257,13 @@
         
       </form>
       <a href="thankyou.html"><button >Submit</button></a>
-      <form  id="2">
-        <label for="fname">Last name:</label><br>
-        <input type="text" id="lname" value="cena"><br><br>
-       <input type="submit" value="Submit">
+      <form id="two" name="myForm" action="/" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+        <p id="suhas"></p>
       </form>
+     
+
      <div class="Yvid">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/d5FkWSA9di8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
      </div>
@@ -273,7 +275,7 @@
 
 
     <script src="./app.js">
-     
+    
     </script>
 </body>
 
