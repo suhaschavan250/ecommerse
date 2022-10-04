@@ -562,5 +562,15 @@ footer {
   }
 }
 
+.Yvid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dotted violet;
+  margin-top: 25px;
+}
 
+.yvid{
+  align-self: center;
+}
 
