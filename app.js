@@ -147,7 +147,7 @@ function validateForm() {
    document.getElementById("suhas").innerHTML="fill the form first";
     return false;
   }else{
-    document.getElementById("suhas").innerHTML="thank you for your interest"
+    document.getElementById("chavan").innerHTML="thank you for your interest"
     return false;
   }
 }
