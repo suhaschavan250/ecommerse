@@ -151,3 +151,31 @@ function validateForm() {
     return false;
   }
 }
+
+(function(){
+  var input= document.querySelector('#two > input[type=submit]:nth-child(2)');
+  
+  function inputCallback (event) {
+    console.log("function works fine");
+   
+    window.dataLayer.push({
+    "event":"form_Event",
+      eventType:event.type,
+      eventTarget:event.target
+    
+    })
+  };
+    input.addEventListener('focus',inputCallback(),true);
+    
+  
+  
+  })()
+  
+  
+  
+  
+
+
+
+
+
